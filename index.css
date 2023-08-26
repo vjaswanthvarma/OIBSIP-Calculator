@@ -1,0 +1,120 @@
+body{
+    background-color:rgb(255, 199, 234);
+}
+.calculator{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    top:200px;
+    background-color:rgb(254, 255, 134);
+    margin-left:700px;
+    margin-right:700px;
+    height:50vh;
+    border-radius:30px;
+    box-shadow: 5px 5px 5px 2px #F11A7B;
+    animation-name:calc;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes calc {
+    10%{
+        box-shadow:8px 8px 8px 8px red;
+    }
+    20%{
+        box-shadow:8px 8px 8px 8px orange;
+    }
+    50%{
+        box-shadow:8px 8px 8px 8px blue;
+    }
+    75%{
+        box-shadow:8px 8px 8px 8śpx aquamarine;
+    }
+}
+.header{
+    color:green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#display{
+    margin-bottom:8px;
+    width:300px;
+    height:4vh;
+    border-radius:10px;
+    box-shadow:1px 1px;
+    font-size: x-large;
+    font-weight: bold;
+}
+#display:hover{
+    background-color:black;
+    color:white;
+}
+.num{
+      width:50px;
+      height:5vh;
+      margin-top:18px;
+      margin-right:10px;
+      border-radius:10px;
+      background-color:rgb(3, 201, 136);
+      color: white;
+}
+.num:hover{
+    background-color:blue;
+    color:white;
+}
+.opr{
+    width:50px;
+    height:5vh;
+     margin-top:18px;
+     margin-right:10px;
+     border-radius:10px;
+     background-color:rgb(255, 82, 162);
+     color: white;
+    
+}
+.opr:hover{
+   background-color:green;
+   color:white; 
+}
+.end{
+    width:50px;
+    height:5vh;
+     margin-top:18px;
+     margin-right:10px;
+     border-radius:10px;
+     background-color:orange;
+}
+#dot{
+    font-weight: bold;
+}
+.ans{
+    margin-top:10px;
+    width:300px;
+    height:5vh;
+    font-size: x-large;
+    margin-right:10px;
+    background-color:green;
+    border-radius:10px;
+}
+.ans:hover{
+    background-color:greenyellow;
+    color:blue;
+}
+.end:hover{
+    background-color:red;
+    color: white;
+}
+footer{
+float:right;
+color:green;
+font-size: xx-large;
+margin-top:100px;
+position: relative;
+top:200px;
+margin-bottom:200px;
+margin-right:100px;
+font-weight: bold;
+font-style:oblique;
+}
